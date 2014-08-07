@@ -20,4 +20,4 @@ Convert inches to millimeters
 Convert millimeters to inches
 
 - `Inch.mm_to_inch(510)`
-- `=> "20 1/16"
+- `=> "20 1/16"`
