@@ -63,7 +63,7 @@ class Inch < String
   def self.mm_to_inch(mm)
     #precision = 0.03125 # 1/32
     precision = 0.0625  # 1/16
-    (((mm.to_f * 0.0393701).to_f / precision).round * precision).to_f.to_inch
+    (((mm * 0.0393701) / precision).round * precision).to_inch
   end
 
   private
